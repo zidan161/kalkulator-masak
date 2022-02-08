@@ -13,6 +13,7 @@ import com.example.kalkulatormasak.ViewModelFactory
 import com.example.kalkulatormasak.bahan.BahanDropdownAdapter
 import com.example.kalkulatormasak.bahan.BahanHarianAdapter
 import com.example.kalkulatormasak.databinding.FragmentTambahMenuBinding
+import com.example.kalkulatormasak.getDate
 import com.example.kalkulatormasak.menu.MenuAdapter.ViewHolder.Companion.REQUEST_ADD
 import com.example.kalkulatormasak.menu.MenuAdapter.ViewHolder.Companion.REQUEST_EDIT
 import com.example.kalkulatormasak.model.*
@@ -86,6 +87,11 @@ class TambahMenuFragment : Fragment() {
             if (bahan.isEmpty()) {
                 binding.edtBahan.error = "Field ini tidak boleh kosong!"
                 return@setOnClickListener
+            } else {
+                if (bahanSelected!!.qty < qty.toFloat()) {
+                    binding.edtQty.error = "Stok bahan tidak cukup!"
+                    return@setOnClickListener
+                }
             }
 
             if (qty.isEmpty()) {
@@ -145,5 +151,21 @@ class TambahMenuFragment : Fragment() {
         }
 
         return binding.root
+    }
+
+    private fun cook(id: Long, qty: Int) {
+
+        viewModel.getMenuWithBahanById(id).observe(viewLifecycleOwner) { menu ->
+
+            for (i in menu.listBahan) {
+                viewModel.decreaseQty(i.bahan.bahanId, i.bahan.qty * qty)
+            }
+            val masak = Masak()
+            masak.menuId = menu.menu.menuId
+            masak.menuName = menu.menu.name
+            masak.reportDate = getDate()
+            masak.count = qty
+            viewModel.updateOrInsertMasak(masak)
+        }
     }
 }
