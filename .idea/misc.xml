@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/AndroidStudioProjects/KalkulatorMasak/app/src/main/res/drawable/avatar_1.xml" value="0.17777777777777778" />
+        <entry key="..\:/AndroidStudioProjects/KalkulatorMasak/app/src/main/res/drawable/button_rounded.xml" value="0.25" />
+        <entry key="..\:/AndroidStudioProjects/KalkulatorMasak/app/src/main/res/drawable/ic_btn_add.xml" value="0.33046875" />
+        <entry key="..\:/AndroidStudioProjects/KalkulatorMasak/app/src/main/res/drawable/ic_btn_remove.xml" value="0.33046875" />
+        <entry key="..\:/AndroidStudioProjects/KalkulatorMasak/app/src/main/res/drawable/ic_chef.xml" value="0.2353515625" />
+        <entry key="..\:/AndroidStudioProjects/KalkulatorMasak/app/src/main/res/drawable/ic_edit.xml" value="0.30125" />
+        <entry key="..\:/AndroidStudioProjects/KalkulatorMasak/app/src/main/res/layout-land/activity_main.xml" value="0.1728395061728395" />
+        <entry key="..\:/AndroidStudioProjects/KalkulatorMasak/app/src/main/res/layout-land/activity_tambah_bahan.xml" value="0.3516666666666667" />
+        <entry key="..\:/AndroidStudioProjects/KalkulatorMasak/app/src/main/res/layout-w1240dp/activity_main.xml" value="0.1" />
+        <entry key="..\:/AndroidStudioProjects/KalkulatorMasak/app/src/main/res/layout-w1240dp/content_main.xml" value="0.109765625" />
+        <entry key="..\:/AndroidStudioProjects/KalkulatorMasak/app/src/main/res/layout-w600dp/activity_main.xml" value="0.2" />
+        <entry key="..\:/AndroidStudioProjects/KalkulatorMasak/app/src/main/res/layout/activity_bahan.xml" value="0.16" />
+        <entry key="..\:/AndroidStudioProjects/KalkulatorMasak/app/src/main/res/layout/activity_main.xml" value="0.18" />
+        <entry key="..\:/AndroidStudioProjects/KalkulatorMasak/app/src/main/res/layout/activity_table.xml" value="0.22" />
+        <entry key="..\:/AndroidStudioProjects/KalkulatorMasak/app/src/main/res/layout/activity_tambah_bahan.xml" value="0.27609223300970875" />
+        <entry key="..\:/AndroidStudioProjects/KalkulatorMasak/app/src/main/res/layout/bahan_in_menu.xml" value="0.25" />
+        <entry key="..\:/AndroidStudioProjects/KalkulatorMasak/app/src/main/res/layout/content_main.xml" value="0.20416666666666666" />
+        <entry key="..\:/AndroidStudioProjects/KalkulatorMasak/app/src/main/res/layout/fragment_bahan.xml" value="0.22" />
+        <entry key="..\:/AndroidStudioProjects/KalkulatorMasak/app/src/main/res/layout/fragment_bahan_harian.xml" value="0.25" />
+        <entry key="..\:/AndroidStudioProjects/KalkulatorMasak/app/src/main/res/layout/fragment_menu.xml" value="0.22" />
+        <entry key="..\:/AndroidStudioProjects/KalkulatorMasak/app/src/main/res/layout/fragment_reflow.xml" value="0.20416666666666666" />
+        <entry key="..\:/AndroidStudioProjects/KalkulatorMasak/app/src/main/res/layout/fragment_report.xml" value="0.37467700258397935" />
+        <entry key="..\:/AndroidStudioProjects/KalkulatorMasak/app/src/main/res/layout/fragment_slideshow.xml" value="0.20416666666666666" />
+        <entry key="..\:/AndroidStudioProjects/KalkulatorMasak/app/src/main/res/layout/fragment_tambah_bahan.xml" value="0.22" />
+        <entry key="..\:/AndroidStudioProjects/KalkulatorMasak/app/src/main/res/layout/fragment_tambah_bahan_harian.xml" value="0.22" />
+        <entry key="..\:/AndroidStudioProjects/KalkulatorMasak/app/src/main/res/layout/fragment_tambah_menu.xml" value="0.25" />
+        <entry key="..\:/AndroidStudioProjects/KalkulatorMasak/app/src/main/res/layout/input_admin.xml" value="0.75" />
+        <entry key="..\:/AndroidStudioProjects/KalkulatorMasak/app/src/main/res/layout/item_bahan.xml" value="0.5" />
+        <entry key="..\:/AndroidStudioProjects/KalkulatorMasak/app/src/main/res/layout/item_bahan_harian.xml" value="0.33" />
+        <entry key="..\:/AndroidStudioProjects/KalkulatorMasak/app/src/main/res/layout/item_menu.xml" value="0.4049382716049383" />
+        <entry key="..\:/AndroidStudioProjects/KalkulatorMasak/app/src/main/res/layout/item_report.xml" value="0.3030888030888031" />
+        <entry key="..\:/AndroidStudioProjects/KalkulatorMasak/app/src/main/res/layout/item_sub_report.xml" value="0.5" />
+        <entry key="..\:/AndroidStudioProjects/KalkulatorMasak/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.24" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
